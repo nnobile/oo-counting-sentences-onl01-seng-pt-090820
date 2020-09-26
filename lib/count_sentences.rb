@@ -3,7 +3,7 @@ require 'pry'
 class String
 
   def sentence?
-    sentence.sentence?
+    "Hi, my name is Sophie".sentence?
   end
 
   def question?
