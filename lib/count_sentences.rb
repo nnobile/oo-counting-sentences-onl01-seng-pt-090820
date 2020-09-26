@@ -20,6 +20,5 @@ class String
     new_array.delete_if do |x|
     x = ""
   end
-end
   new_array.count
 end
