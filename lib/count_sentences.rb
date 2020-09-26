@@ -16,10 +16,10 @@ class String
 
   def count_sentences
     new_array = []
-    nested_array = self.split(/\.|\?|\!/)
-    nested_array.delete_if do |x|
+    new_array = self.split(/\.|\?|\!/)
+    new_array.delete_if do |x|
     x = ""
   end
-  new_array.count
 end
+  new_array.count
 end
