@@ -21,3 +21,4 @@ class String
   def complex_string
     self.split.count
   end
+end
