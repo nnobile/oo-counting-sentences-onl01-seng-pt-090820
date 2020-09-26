@@ -22,3 +22,4 @@ class String
   end
   new_array.count
 end
+end
