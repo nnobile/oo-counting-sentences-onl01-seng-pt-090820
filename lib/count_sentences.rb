@@ -15,11 +15,9 @@ class String
   end
 
   def count_sentences
-    new_array = []
-    new_array = self.split(/\.|\?|\!/)
-    new_array.delete_if do |x|
-    x = ""
+    split_array = self.split(/\.|\?|\!/)
+    split_array.!reject{|x| x.empty?}
+    split_array.count
   end
-  new_array.count
 end
-end
+
