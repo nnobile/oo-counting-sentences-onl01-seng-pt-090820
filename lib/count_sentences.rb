@@ -15,10 +15,11 @@ class String
   end
 
   def count_sentences
-    self.split.count
+    nested_array = []
+    nested_array = self.split(/\.|\?|\!/)
+    nested_array.delete_if do |x|
+    x = ""
   end
-
-  def complex_string
-    self.split.count
-  end
+  nested_array.count
+end
 end
