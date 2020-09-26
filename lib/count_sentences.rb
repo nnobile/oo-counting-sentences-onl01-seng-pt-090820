@@ -20,4 +20,3 @@ class String
     split_array.count
   end
 end
-
